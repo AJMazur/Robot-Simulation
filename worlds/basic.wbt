@@ -1,0 +1,271 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.019004716335330355 0.8996344632450884 0.4362300463043956 3.1526824770919077
+  position -0.41524250063423496 1.9094410678217453 -1.5328789417862794
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.04 0
+  floorSize 10 10
+}
+SolidBox {
+  hidden linearVelocity_0 0.0005950106826020595 0.013963295212151844 -7.040864305763012e-05
+  hidden angularVelocity_0 -0.00021956720328782282 -0.002839341329082885 -0.0046434934046956
+  translation -0.1750862417069536 0.609487212196777 -0.5306039115172788
+  rotation -0.4923290096480612 0.8210092981633664 -0.2890603372797029 0.1198992676993263
+  size 0.05 0.3 0.1
+  physics Physics {
+    mass 1
+  }
+}
+Table {
+  translation 0 -0.04 -0.56
+  name "table(1)"
+  size 0.5 0.5 0.5
+}
+Table {
+  translation 0 -0.04 0
+  size 0.5 0.5 0.5
+}
+UR5e {
+  hidden translation_1 0 0 0.163
+  hidden rotation_1 0 0 1 1.601816463421488
+  hidden linearVelocity_1 1.6583529504715753e-06 -0.0001101450071552621 2.148232120009146e-05
+  hidden angularVelocity_1 -2.40301461199966e-05 -0.0007229419108057552 8.128409628263873e-06
+  hidden translation_2 0 0.138 0
+  hidden rotation_2 0 1 0 0.754507148386317
+  hidden linearVelocity_2 0.00010356917806203663 -0.0001996095146201107 -0.00010042948147732673
+  hidden angularVelocity_2 -2.2159870113831696e-05 -0.0007227409909368193 4.304132922582614e-06
+  hidden translation_3 0 -0.131 0.425
+  hidden rotation_3 0 1 0 0.7532361440956937
+  hidden linearVelocity_3 0.0003193573546031127 -0.00023505045235178807 -1.110648312597979e-05
+  hidden angularVelocity_3 -2.053622500344942e-05 -0.0007216431202910721 4.6222083516615775e-06
+  hidden translation_4 0 0 0.392
+  hidden rotation_4 0 1 0 3.275142941182845
+  hidden linearVelocity_4 0.0004903574963546793 -0.0002492521104599625 -0.00010234996121689604
+  hidden angularVelocity_4 6.391466874271895e-05 -0.0007205819991513179 2.3764108512106633e-06
+  hidden translation_5 0 0.127 0
+  hidden rotation_5 0 0 1 1.5379995242941487
+  hidden linearVelocity_5 0.000417708265743773 -0.0002532914338703369 -9.309267900390364e-05
+  hidden angularVelocity_5 6.279335880779079e-05 -0.0007180301894512968 3.348148671608009e-05
+  hidden translation_6 0 0 0.1
+  hidden rotation_6 0.991889575368272 -0.12710171878790338 0.0004726065063799516 3.5339321950777027e-06
+  hidden linearVelocity_6 0.0004148448771613208 -0.00024161752679240463 -9.425525591076186e-05
+  hidden angularVelocity_6 6.075751972784972e-05 -0.0007206637671120053 3.303359824102262e-05
+  hidden linearVelocity_7 0.00040648407591413265 -0.00024211103503493647 -0.00013343942415858934
+  hidden angularVelocity_7 6.0757256145652365e-05 -0.0007206169599714455 3.3036773026910726e-05
+  hidden linearVelocity_8 0.00040588549347239775 -0.00024034623637397834 -0.00013079767931909744
+  hidden angularVelocity_8 6.077513280687872e-05 -0.0007206326190596247 3.303133487986821e-05
+  hidden linearVelocity_9 0.0004066161727859603 -0.00023565243402370872 -0.00012984368079021246
+  hidden angularVelocity_9 6.079129642266142e-05 -0.0007206389155344547 3.303916080810905e-05
+  hidden linearVelocity_10 0.00041187411331450904 -0.00024355942866986086 -0.0001311435421884477
+  hidden angularVelocity_10 6.075751955039731e-05 -0.000720663769899602 3.30336014075482e-05
+  hidden linearVelocity_11 0.00041205839578864733 -0.00024350610708927245 -0.00013031898308805064
+  hidden angularVelocity_11 6.07575196652093e-05 -0.0007206637676843161 3.303359781207253e-05
+  hidden linearVelocity_12 0.00041224220133375853 -0.00024345284320003574 -0.00012949480530614064
+  hidden angularVelocity_12 6.075751970244738e-05 -0.0007206637671488528 3.3033597943641304e-05
+  hidden linearVelocity_13 0.0017735933248980307 -0.0002797626944370679 -0.00012621408301632727
+  hidden angularVelocity_13 6.031811241103572e-05 -0.0007204174358993853 3.4297748212519746e-05
+  translation 0 0.46 0
+  rotation -1 -2.39745e-09 1.03407e-06 1.5708
+  controller "my_controller"
+  supervisor TRUE
+  toolSlot [
+    TouchSensor {
+      translation 0.04000075495708916 0.13002961995609597 -1.4232215998388753e-05
+      rotation 0.9695669491051874 -0.24457598386064403 0.011068844630629078 -1.6301289303273375e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts1"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.00040648407591413265 -0.00024211103503493647 -0.00013343942415858934
+      angularVelocity 6.0757256145652365e-05 -0.0007206169599714455 3.3036773026910726e-05
+    }
+    TouchSensor {
+      translation 0.04000212226834804 0.12002728659736439 -1.2793353424744858e-05
+      rotation 0.9337400138206915 -0.35671678054727607 -0.02971068942520857 -2.4917182089860844e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts2"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.00040588549347239775 -0.00024034623637397834 -0.00013079767931909744
+      angularVelocity 6.077513280687872e-05 -0.0007206326190596247 3.303133487986821e-05
+    }
+    TouchSensor {
+      translation 0.04000368217053421 0.11002404605951599 -1.0839026849840394e-05
+      rotation -0.891007537301872 0.4498367821484285 -0.061257145686037726 3.3854186197738696e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts3"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.0004066161727859603 -0.00023565243402370872 -0.00012984368079021246
+      angularVelocity 6.079129642266142e-05 -0.0007206389155344547 3.303916080810905e-05
+    }
+    TouchSensor {
+      translation 0.040003481647273714 0.10002340380833752 -1.0710363465671335e-05
+      rotation -0.47518124417241386 0.8791685423457363 0.03557329527089491 3.413524974348126e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts4"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.00041187411331450904 -0.00024355942866986086 -0.0001311435421884477
+      angularVelocity 6.075751955039731e-05 -0.000720663769899602 3.30336014075482e-05
+    }
+    TouchSensor {
+      translation 0.04000571603152067 0.09002142017638182 -8.788777387525037e-06
+      rotation 0.3299658696646762 -0.9385586618613063 -0.10114426875284616 -3.630258012316508e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts5"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.00041205839578864733 -0.00024350610708927245 -0.00013031898308805064
+      angularVelocity 6.07575196652093e-05 -0.0007206637676843161 3.303359781207253e-05
+    }
+    TouchSensor {
+      translation 0.040008640435808346 0.0800182712888744 -6.196436721062071e-06
+      rotation 0.12494477708095904 -0.9821094017609895 -0.14088976418768298 -3.684603543103768e-08
+      children [
+        DEF Sensor Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+          }
+          geometry Box {
+            size 0.001 0.01 0.01
+          }
+        }
+      ]
+      name "ts6"
+      boundingObject USE Sensor
+      physics Physics {
+      }
+      type "force"
+      linearVelocity 0.00041224220133375853 -0.00024345284320003574 -0.00012949480530614064
+      angularVelocity 6.075751970244738e-05 -0.0007206637671488528 3.3033597943641304e-05
+    }
+    DEF slider_joint SliderJoint {
+      jointParameters JointParameters {
+        position 0.029048671541047344
+        axis 1 0 0
+      }
+      device [
+        DEF Linear LinearMotor {
+          maxVelocity 1
+          minPosition -2.027548367773002e-09
+          maxPosition 0.08
+          maxForce 25
+        }
+      ]
+      endPoint Solid {
+        translation -0.015951328458952654 0.089 0
+        children [
+          DEF MovableFinger Shape {
+            appearance PBRAppearance {
+            }
+            geometry Box {
+              size 0.01 0.1 0.02
+            }
+          }
+        ]
+        boundingObject USE MovableFinger
+        physics Physics {
+          mass 1
+        }
+        linearVelocity 0.0017735933248980307 -0.0002797626944370679 -0.00012621408301632727
+        angularVelocity 6.031811241103572e-05 -0.0007204174358993853 3.4297748212519746e-05
+      }
+    }
+    Solid {
+      translation 0.045 0.089 0
+      children [
+        DEF StationaryFinger Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.01 0.1 0.02
+          }
+        }
+      ]
+      name "StationaryFinger"
+      boundingObject USE StationaryFinger
+      physics Physics {
+      }
+    }
+    DEF BaseOfGripper Solid {
+      translation 0 0.019 0
+      children [
+        DEF BaseOfGripper Shape {
+          appearance PBRAppearance {
+          }
+          geometry Box {
+            size 0.1 0.04 0.02
+          }
+        }
+      ]
+      name "BaseOfGripper"
+      boundingObject USE BaseOfGripper
+      physics Physics {
+      }
+    }
+  ]
+}
